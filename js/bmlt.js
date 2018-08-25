@@ -61,7 +61,6 @@ var getMeetingsByServiceBodyIdAndCity = function(serviceBodyId, city, callback) 
 
 var getServiceBodies = function(callback) {
     getJSON(baseURL + "GetServiceBodies" + "&callback=?", callback);
-    
 };  
 
 var getServiceBodyIdQueryString = function(serviceBodyIds) {
